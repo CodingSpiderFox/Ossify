@@ -96,4 +96,3 @@ Write-Warning 'Disabling Windows services...'
 		Stop-Service -Name $Service -Force
 	}
 	Write-Host 'Done.'
-}
